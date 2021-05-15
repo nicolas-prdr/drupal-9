@@ -1,0 +1,56 @@
+{
+  "breadcrumbs.enabled": true,
+  "css.validate": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "editor.autoIndent": "full",
+  "editor.insertSpaces": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "editor.renderWhitespace": "none",
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "off",
+  "editor.detectIndentation": true,
+  "editor.rulers": [
+    80
+  ],
+  "files.associations": {
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.php": "php",
+    "*.html": "twig"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 80,
+  "telemetry.enableTelemetry": false,
+
+  /* Empty Indent */
+  "emptyIndent.removeIndent": true,
+  "emptyIndent.highlightIndent": false,
+  "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
+
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
+
+  "php.suggest.basic": false,
+  // Intelephense and Drupal >8 only. This should be set to the path to core/index.php.
+  "intelephense.environment.documentRoot": "web/index.php",
+  "intelephense.format.braces": "k&r",
+
+  "php-docblocker.gap": true,
+  "php-docblocker.useShortNames": true,
+
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "git.ignoreLimitWarning": true,
+  //À n'activer que si la bonne verison de PHP tourne en local.
+  "phpcs.enable": false,
+  "phpcs.standard": "vendor/drupal/coder/coder_sniffer/Drupal"
+}

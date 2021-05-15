@@ -1,0 +1,34 @@
+# Toutes les librairies externes à Drupal.
+/vendor/
+/bin
+
+# Core Drupal
+web/core
+
+# Fichiers de configuration.
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+
+# Contenus générés par l'utilisateur (images, caches, css minifiées...).
+web/sites/*/files
+web/sites/*/private
+
+# Modules, thèmes et profils tiers car gérés via composer.
+web/modules/contrib
+web/themes/contrib
+web/profiles/contrib
+
+# Logs
+/logs
+
+# Fichiers privés Drupal
+/private
+
+# Fichiers de dump
+/dumps
+
+# Fichiers d'imports FAS
+/imports
+
+# Fichiers relous MacOS
+.DS_Store
